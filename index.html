@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+    <!--Fontawsome css-->
+    <link rel="stylesheet" href="bootstrap/css/fontawesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/all.css">
+
+    <!--Leaflet-->
+    <link rel="stylesheet" href="leaflet/leaflet.css">
+    <script src="leaflet/leaflet.js"></script>
+
+    <!--Icon-->
+    <link rel="icon" href="images/m2.png">
+
+    <!--Bootstrap js-->
+    <script src="bootstrap/js/bootstrap.bundle.js" async></script>
+
+
+    <title>Nuwagira Moses Portfolio Website</title>
+</head>
+
+<body>
+
+    <div class="container-fluid px-0  ">
+
+        <!--Navbar-->
+        <div class="navbar navbar-expand-lg navbar-light shadow" id="top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#about">
+
+                    <img class="a" src="images/m1.jpg" alt="Nuwagiralogo">
+                    <span class=" me-1 text-primary"> Nuwagira Developer </span>
+
+                </a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" arial-controls="navbarSupportedContent"
+                    arial-expanded="false" arial-label="Toggle navigation" title="toggle navigation">
+
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="container px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#about">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3 " href="#projects">Projects</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#testimonials">Testimonials</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Hero-->
+
+        <header class=" py-5" role="banner"> <!--<header class="bg-light py-5">-->
+
+            <div class="container px-5">
+                <a href="#main">Go to Main Content</a>
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5">
+                            <h1 class="text-center fw-bold mb-2">Hello I'm Nuwagira Moses</h1>
+                            <h2 class="text-primary text-center fw-bold mb-2">a Front end web developer</h2>
+                            <p class="lead text-muted mb-4 ">
+                                I specialise in building websites using HTML,CSS,Javascript and Bootstrap framework.
+                                Scroll down to see what i have been working on
+                            </p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                                <a class="btn btn-primary btn-large text-uppercase" href="#about">Learn More
+                                    <span class="fa fa-question-circle ms-2"></span>
+                                </a>
+
+
+                                <a class="btn btn-outline-primary btn-large text-uppercase" href="#projects">View My
+                                    work
+                                    <span class="fa fa-search ms-2"></span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-xxl-6 justify-content-center">
+                        <img class="img-fluid rounded-3 my-5" src="images/mos.png" alt="profile pic">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main" role="main">
+
+            <!--About-->
+            <section id="about" class="text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">About</h2>
+                        <p class="lead text-muted mb-5">
+                            Iam a Freelance frontend web developer who builds elegant, fast and scalable websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-5 about">
+                                <span class="fa fa-palette fa-2x m-auto text-primary"></span>
+                            </div>
+                            <h3>Design</h3>
+                            <p class="text muted mb-0">
+                                I create beautiful modern designs optimised for multiple color modes (Light and Dark
+                                Themes)
+                            </p>
+                        </div>
+
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-5 about">
+                                <span class="fa fa-code fa-2x m-auto text-primary"></span>
+                            </div>
+                            <h3>Development</h3>
+                            <p class="text muted mb-0">
+                                I develop responsive, scalable and fast websites using the best standards and coding
+                                practices.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="d-flex mb-5 about">
+                                <span class="fa fa-gear fa-2x m-auto text-primary"></span>
+                            </div>
+                            <h3>Launch & Meintanance</h3>
+                            <p class="text muted mb-0">
+                                Once the website is ready, i will help you launch it and teach you how to update and
+                                maintain it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Projects-->
+            <section id="projects" class="text-center py-5 bg-light">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">Projects</h2>
+                        <p class="lead text-muted mb-5">
+                            View some of my latest projects
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="card h-100 shadow-lg border-0 bg-light">
+                                <img class="card-img-top" src="images/Nuwagira.jpg" alt="portfolio website">
+                                <div class="card-body p-4">
+                                    <h3 class="card-title mb-3">Portfolio</h3>
+                                    <div class="mb-2">
+                                        <div class="badge bg-primary rounded-pill">Html</div>
+                                        <div class="badge bg-primary rounded-pill">Css</div>
+                                        <div class="badge bg-primary rounded-pill">Javascript</div>
+                                        <div class="badge bg-primary rounded-pill">Bootstrap</div>
+                                    </div>
+                                    <p class="card-text">
+                                        I will soon put some text here once established
+                                    </p>
+                                </div>
+                                <!--ADD GITHUB REPOSITORY LINK-->
+                                <div class="card-footer bg-white mb-3">
+                                    <a class="btn btn-outline-primary btn-sm text-uppercase" href="https://github.com/motechn/mosesnuwagira.github.io.git"
+                                        target="blank">
+                                        <span class="fa fa-cod"></span>
+                                        Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Testimonials-->
+            <section id="testimonials" class="text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">Testimonials</h2>
+                        <p class="lead text-muted mb-5">
+                            Check what clients have said about my work
+                        </p>
+                    </div>
+                </div>
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="text-center fs-4 fst-italic mb-4 px-2">
+                                "Working with you has been an absolute pleasure. The ability
+                                to transform our ideas into a visually appealing and user-friendl website
+                                exceeded our expectations"
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center testimonial">
+                                <img class="rounded-circle me-3" src="images/james.jpg" alt="james,marketing manager">
+                                <div class="fw-bold">
+                                    James Collin
+                                    <span class="text-primary mx-1">/</span>
+                                    Marketing Manager, Bright Innovations
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="text-center fs-4 fst-italic mb-4 px-2">
+                                "We've collaborated with several developers in the past, but you stand out
+                                for the attention to detail and commintment to delivering highquality code"
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center testimonial">
+                                <img class="rounded-circle me-3" src="images/bs.jpg" alt="basooma saleh, ICT officer">
+                                <div class="fw-bold">
+                                    Basooma Saleh
+                                    <span class="text-primary mx-1">/</span>
+                                    ICT Officer, Kcca
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mx-auto mb-5">
+                            <div class="text-center fs-4 fst-italic mb-4 px-2">
+                                "I was impressed with the creativity and technical expertise. You brought
+                                our brands vision to lif with a sleek and modern website that trury represents
+                                our company"
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center testimonial">
+                                <img class="rounded-circle me-3" src="images/micheal.jpg" alt="micheal,product manager">
+                                <div class="fw-bold">
+                                    Micheal Brown
+                                    <span class="text-primary mx-1">/</span>
+                                    Product Manager , Innovate x
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--Contacts-->
+            <section id="contact" class="bg-light text-center py-5">
+                <div class="container py-5">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold">Contact</h2>
+                        <p class="lead text-muted mb-5">
+                            Do you need a front end developer? I would love to hear from you.
+                        </p>
+                    </div>
+                    <div class="container mb-5">
+                        <div class="row">
+                            <div class="col-xl-5 col-xxl-6 mb-5">
+                                <div id="map"></div>
+                            </div>
+                            <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+                                <div class="mb-5">
+                                    <h3 class="text-uppercase mb-2">Address</h3>
+                                    <p class="lead mb-0">Kampala, Uganda</p>
+                                </div>
+                                <div class="mb-5">
+                                    <h3 class="text-uppercase mb-2">Phone</h3>
+                                    <p class="lead mb-0">+256 786 938169 | +256 700 682405</p>
+                                </div>
+                                <div class="mb-5">
+                                    <h3 class="text-uppercase mb-2">Email</h3>
+                                    <p class="lead mb-0">nuwagiramoses30@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!--Footer-->
+    <footer class="text-center py-4" role="contentinfo">
+
+        <div class="container px-5 mb-2">
+            Copyright &copy; 2024 Nuwagira Moses All Rights Reserved.
+            <div>
+                <a href="#top">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="bootstrap/js/scripts.js"></script>
+
+</body>
+
+</html>
